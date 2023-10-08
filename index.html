@@ -6,13 +6,23 @@
     <title>Namaka</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/svg" href="Icons/logo.svg">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="functions.js"></script>
 </head>
 <body onscroll="Scrolling()">
+    <script type="text/javascript">
+        $(window).load(function() {
+            $(".loader").fadeOut("slow");
+        });
+    </script>
+    <div class="loader">
+       <img src="Icons/logo.svg"> 
+    </div>
     <div class="home">
         <img src="Images/namaka.svg" class="namaka">
         <div class="bigText">
-            Coming son!
+            ¡Estamos en camino!
         </div>
         <div class="date">
             22 · noviembre · 2023

@@ -60,3 +60,19 @@ html{
 .namaka {
     width: 60vw;
 }
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
+}
+.loader img {
+    width: 100px;
+}
